@@ -1,0 +1,48 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+        <title>UNIUBE</title>
+        <link href="../../../boleto.css" rel="stylesheet" type="text/css">
+        
+        <style type="text/css">
+        <!--
+        .style20 {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 9px;
+        }
+		.times_24_neg {
+			font-family: "Times New Roman", Times, serif;
+			font-size: 24px;
+			font-weight: bold;
+		}
+        -->
+        </style>
+        <script LANGUAGE="JavaScript">
+        //Essa função JavaScript é responsável para chamar o comando de Visualização de Impressão do windows
+        
+        function ieExecWB( intOLEcmd, intOLEparam ) { 
+			 var WebBrowser = '<OBJECT ID="WebBrowser1" WIDTH=0 HEIGHT=0 CLASSID="CLSID:8856F961-340A-11D0-A96B-00C04FD705A2"></OBJECT>'; 
+			 document.body.insertAdjacentHTML('beforeEnd', WebBrowser); 
+			 if (!intOLEparam || intOLEparam < -1 || intOLEparam > 1 ) { 
+			 intOLEparam = 1; 
+			 } 
+			 WebBrowser1.ExecWB( intOLEcmd, intOLEparam ); 
+			 WebBrowser1.outerHTML = ""; 
+        };
+        
+        function Imprimir() {
+	        window.print();
+        }
+        
+        function fechar_janela() {
+    	     window.close();
+        }
+        </SCRIPT>
+        <STYLE media=print>.noprint {
+            DISPLAY: none
+        }
+        </STYLE>
+    </head>
+    <body style="background-color:#FFFFFF;">
+        				<div class="ver3Verme"><b>NÃO FOI POSSÍVEL EMITIR O PROTOCOLO.<br clear="all"> PROCURE A INSTITUIÇÃO PARA SOLICITAR RETORNO AOS ESTUDOS.-5</b></div>
